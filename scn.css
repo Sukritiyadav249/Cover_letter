@@ -1,0 +1,193 @@
+/* Sukriti------------------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "roboto", sans-serif;
+}
+body {
+  background-color: rgba(130, 124, 124, 0.447);
+}
+.main {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(222, 217, 211);
+  padding: 10px;
+  grid-template-columns: 1fr 1fr;
+  display: flex;
+  justify-content: baseline;
+}
+.box {
+  width: 380px;
+  height: 350px;
+  margin-left: 30px;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+.box1 > h1 {
+  font-size: 35px;
+  line-height: 30px;
+}
+.box1 > p {
+  font-size: 30px;
+  line-height: 50px;
+}
+.box1 {
+  margin-left: 20%;
+  width: 380px;
+  height: 350px;
+  text-align: center;
+  line-height: 35px;
+}
+.box > p {
+  text-align: center;
+  gap: 120px;
+  /* display: flex; */
+  justify-content: baseline;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+}
+.letter {
+  text-align: center;
+  padding: 20px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 80%;
+  margin: auto;
+  gap: 20px;
+}
+#marina img {
+  width: 600px;
+  height: 500px;
+}
+.text {
+  max-width: 50%;
+  text-align: left;
+  line-height: 40px;
+}
+#btn,
+#ctn {
+  font-weight: bold;
+  font-size: large;
+  background-color: rgb(13, 187, 187);
+  border-radius: 5px;
+  margin: 30px;
+  padding: 20px;
+}
+#btn:hover {
+  height: 40px;
+  background-color: rgba(15, 131, 131, 0.598);
+}
+.section {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .work1,
+  .work2,
+  .work3 {
+    background-color: aliceblue;
+    /* gap: 20px; */
+    margin: 50px;
+    height: 120px;
+    width: 390px;
+    text-align: center;
+    border-radius: 8px;
+    /* display: flex; */
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+.language {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-weight: bold;
+  /* justify-content: space-between; */
+  text-align: left;
+}
+#foot {
+  display: flex;
+  justify-content: space-around;
+}
+#pot {
+  display: flex;
+  justify-content: left;
+  margin-left: 5%;
+  gap: 30px;
+  height: 30px;
+}
+footer {
+  background-color: rgb(38, 38, 122);
+  color: aliceblue;
+}
+
+/* Jinsi------------------------------------------------------------------------ */
+
+body {
+  background-color: rgb(202, 197, 197);
+  text-align: center;
+}
+.mnl {
+  font-size: 15px;
+  height: 70px;
+  width: 190px;
+  border: 2px solid rgb(29, 26, 26);
+  border-radius: 15px;
+  margin: 1%;
+}
+.mnl:hover {
+  /* box-shadow:5px 5px 5px 5px rgba(0, 0, 0, 0.9) ; */
+  filter: brightness(1.3);
+}
+
+#main1,
+#main2,
+#main3 {
+  display: none;
+}
+
+#D,
+#E,
+#F {
+  height: 50px;
+  width: 120px;
+  background-color: rgb(32, 32, 175);
+  color: aliceblue;
+  font-weight: 2rem;
+}
+.btn,
+.stn,
+.ltn {
+  height: 20%;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 62%;
+  margin-top: 7%;
+  /* display: none; */
+}
+
+.nav {
+  background-color: antiquewhite;
+}
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.nav ul li {
+  text-decoration: none;
+  list-style-type: none;
+  margin: 2%;
+}
